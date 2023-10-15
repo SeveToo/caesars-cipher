@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Caesars Cipher</title>
+  </head>
+  <body>
+    <div class="glowny">
+      <h1>Caesars Cipher</h1>
+      <div>
+        <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+        <p>O P Q R S T U V W X Y Z A B C D E F G H I J K L M N</p>
+        <a>Normal text</a>
+        <textarea id="normal" onKeyUp="zaszyfruj()"></textarea>
+        <a>Encripted text</a>
+        <textarea id="encripted" onKeyUp="odszyfruj()"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
